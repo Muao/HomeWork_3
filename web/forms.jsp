@@ -11,7 +11,7 @@
     <title>Forms</title>
 </head>
 <body>
-<form action="servlet-parameters" method="GET">
+<form method="POST" <%--action= "response.jsp"--%>>
     <table border="0">
         <tr>
             <td><b>Subject</b></td>
@@ -30,7 +30,7 @@
             <td>
                 <input type="text" name="Theme" size="65"/>
             </td>
-            <td><input type = "submit" value = "Add test"/>
+            <td><input type = "submit" name="submit" value = "Add test"/>
             </td>
 
         </tr>

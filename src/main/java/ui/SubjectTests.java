@@ -1,6 +1,25 @@
+package ui;
+
 public class SubjectTests {
+    private String id;
     private String subject;
     private String theme;
+
+    SubjectTests(String subject, String theme) {
+
+        this.subject = subject;
+        this.theme = theme;
+        id = this.toString();
+        System.out.println("id " + id);
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getSubject() {
         return subject;
