@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 @WebServlet("")
 public class Servlet extends HttpServlet {
-    ArrayList<SubjectTests> subjectTestsList = new ArrayList<SubjectTests>();
+    private ArrayList<SubjectTests> subjectTestsList = new ArrayList<SubjectTests>();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
